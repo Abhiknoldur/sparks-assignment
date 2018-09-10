@@ -8,4 +8,4 @@ Run commands :
 
 1 : cd sparks-assignment
 2 : sbt clean compile
-2 : sbt run
+3 : sbt run
