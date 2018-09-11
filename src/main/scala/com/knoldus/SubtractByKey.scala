@@ -6,20 +6,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 object SubtractByKey {
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf()
-    conf.setMaster("local")
-    conf.setAppName("Spark Practice1")
+    val conf = new SparkConf().setMaster("local").setAppName("Spark Practice1")
     val sc = new SparkContext(conf)
 
-    println("Enter the key you want to Subtract with: ")
+    println("Enter the 1st key you want to Subtract with in Integers: ")
     val key1: Int = scala.io.StdIn.readInt
-    println("Enter the key you want to Subtract with: ")
+    println("Enter the 2nd key you want to Subtract with Integers: ")
     val key2: Int = scala.io.StdIn.readInt
 
-    println("Enter the 1st value which you wants to substract: ")
+    println("Enter the 1st value which you wants to substract In Double: ")
     val value1: Double = scala.io.StdIn.readDouble
 
-    println("Enter the 2nd value which you wants to substract: ")
+    println("Enter the 2nd value which you wants to substract In Double: ")
     val value2: Double = scala.io.StdIn.readDouble
 
     val rdd_1 = sc.parallelize(Seq((key1, value1)))
