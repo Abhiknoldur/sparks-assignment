@@ -11,10 +11,9 @@ object RddFlatMapDemo {
     val sc = new SparkContext(conf)
 
     val rdd1 = sc.parallelize(Array((1, Array((3, 4), (4, 5))), (2, Array((4, 2), (4, 4), (3, 9)))))
+    .flatMapValues(value => value).collect
 
-    val res = rdd1.flatMapValues(value => value).collect
-
-    for (result <- res) println(result)
+    rdd1.foreach{result=>println(result)}
 
   }
 }
