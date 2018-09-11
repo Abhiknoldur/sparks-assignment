@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/knoldus/Documents/sparks-assignment/target/scala-2.11/sparks-assignment_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddDemo$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddDemo$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddFlatMapDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddFlatMapDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddDemo$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddDemo$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddFlatMapDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddFlatMapDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/RddFlatMapDemo$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/RddFlatMapDemo$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/SubtractByKey.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/SubtractByKey.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/SubtractByKey$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/SubtractByKey$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/SubtractByKey$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Documents/sparks-assignment/target/scala-2.11/classes/com/knoldus/SubtractByKey$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
