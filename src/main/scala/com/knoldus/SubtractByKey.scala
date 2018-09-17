@@ -10,9 +10,9 @@ object SubtractByKey {
     val sc = new SparkContext(conf)
 
     println("Enter the 1st key you want to Subtract with in Integers: ")
-    val key1: Int = scala.io.StdIn.readInt
+    val key1 = scala.io.StdIn.readInt
     println("Enter the 2nd key you want to Subtract with Integers: ")
-    val key2: Int = scala.io.StdIn.readInt
+    val key2 = scala.io.StdIn.readInt
 
     println("Enter the 1st value which you wants to substract In Double: ")
     val value1: Double = scala.io.StdIn.readDouble
@@ -30,6 +30,6 @@ object SubtractByKey {
   def findSubOfVAlues(value: RDD[(Int, Double)], value1: RDD[(Int, Double)]): Unit = {
     val combordd = value join value1
     val res = combordd.map(r => (r._1, r._2._1 - r._2._2)).collect
-    for (result <- res) println(result)
+    for (result <- res) println(s"Wanted result: $result")
   }
 }
