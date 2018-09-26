@@ -1,6 +1,6 @@
-# sparks-assignment
+# spark-assignment
 
-Simple Sparks Assignment =========>
+Simple Spark Assignment =========>
 
 Clone it form the url : https://github.com/Abhiknoldur/sparks-assignment.git
 
