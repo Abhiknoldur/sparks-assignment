@@ -1,8 +1,11 @@
-# spark-assignment
+# sparkConfig Example
 
 Simple Spark Assignment =========>
 
 Clone it form the url : https://github.com/Abhiknoldur/sparks-assignment.git
+
+Spark Dependency :libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0"
+Scala version :2.11.12
 
 Run commands :
 
@@ -12,7 +15,6 @@ Run commands :
 
 
 Apache Spark
-Assignment 1
 Aim​ :
 Complete all the questions given below using Spark Shell or creating an SBT application using
 Spark dependencies.
@@ -38,12 +40,5 @@ and we want output to be printed like following :
 1--1
 2--2
 3--3
-4--4Form of Submission​​ :
-Assignment can be submitted in 2 ways
-1. By Creating a SBT application containing answers and code for the above questions.
-2. Or, by giving answers and code snippets for above questions, if you are using Spark
-Shell.
-Note​​ : All submissions should be done by sharing answers and code via GitHub. You can create
-a public repository on your GitHub account, push your answers to it and provide its link for
-submission. The last date for submission is 11 September 2018, 6:00 PM. A Form will be sent
-via which the answers can be submitted.
+4--4
+
